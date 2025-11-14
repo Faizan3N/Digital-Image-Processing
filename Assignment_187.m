@@ -1,4 +1,4 @@
-% Assignment_187.m
+% Assignment__187.m
 % Main program to test all custom image processing functions
 
 clear; clc; close all;
@@ -45,3 +45,4 @@ Ics = contrastStretch_custom(Igray);
 figure;
 subplot(1,2,1); imshow(Igray); title('Original Grayscale');
 subplot(1,2,2); imshow(Ics); title('Step 6: Contrast Adjusted Image');
+
